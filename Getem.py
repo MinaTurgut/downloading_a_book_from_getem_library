@@ -19,14 +19,14 @@ class GetemKitap(unittest.TestCase):
         self.username = driver.find_element_by_name("name")
         username = self.username
         username.clear()
-        username.send_keys("mina.turgut")
+        username.send_keys("username")
         time.sleep(1)
 
         # enter password
         self.password = driver.find_element_by_id("edit-pass")
         password = self.password
         password.clear()
-        password.send_keys("atlanta24")
+        password.send_keys("password")
         time.sleep(1)
 
         # checkbox checked
